@@ -2,11 +2,12 @@ Summary:	MPS - locations of processes in a cluster
 Summary(pl):	MPS - lokacja procesów w klastrze
 Name:		mps
 Version:	1.1
-Release:	1
+Release:	2
 License:	GPL
 Vendor:		Michael K. Johnson <johnsonm@redhat.com>
 Group:		Applications/System
 Source0:	http://www.mosix.org/moskrn/%{name}-%{version}.tar.gz
+Requires:	kernel-mosix
 BuildRequires:	ncurses-devel
 URL:		http://www.mosix.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
