@@ -7,6 +7,7 @@ License:	GPL
 Vendor:		Michael K. Johnson <johnsonm@redhat.com>
 Group:		Applications/System
 Source0:	http://www.mosix.org/moskrn/%{name}-%{version}.tar.gz
+# Source0-md5:	139271704768f8a425d9371181249742
 Requires:	kernel-mosix
 BuildRequires:	ncurses-devel
 URL:		http://www.mosix.org/
