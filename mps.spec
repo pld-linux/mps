@@ -4,7 +4,7 @@ Name:		mps
 Version:	1.1
 Release:	1
 License:	GPL
-Vendor:		Dustin Puryear <dpuryear@usa.net>
+Vendor:		Michael K. Johnson <johnsonm@redhat.com>
 Group:		Applications/System
 Source0:	http://www.mosix.org/moskrn/%{name}-%{version}.tar.gz
 BuildRequires:	ncurses-devel
