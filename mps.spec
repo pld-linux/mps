@@ -4,13 +4,12 @@ Name:		mps
 Version:	1.1
 Release:	2
 License:	GPL
-Vendor:		Michael K. Johnson <johnsonm@redhat.com>
 Group:		Applications/System
 Source0:	http://www.mosix.org/moskrn/%{name}-%{version}.tar.gz
 # Source0-md5:	139271704768f8a425d9371181249742
-Requires:	kernel-mosix
-BuildRequires:	ncurses-devel
 URL:		http://www.mosix.org/
+BuildRequires:	ncurses-devel
+Requires:	kernel-mosix
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -28,12 +27,10 @@ Lokacja procesów w klastrze.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
-install mtop $RPM_BUILD_ROOT%{_bindir}
-install mps $RPM_BUILD_ROOT%{_bindir}
-install *.1 $RPM_BUILD_ROOT%{_mandir}/man1/
+install mtop mps $RPM_BUILD_ROOT%{_bindir}
+install *.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
