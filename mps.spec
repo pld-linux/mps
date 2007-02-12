@@ -1,5 +1,5 @@
 Summary:	MPS - locations of processes in a cluster
-Summary(pl):	MPS - lokacja procesów w klastrze
+Summary(pl.UTF-8):   MPS - lokacja procesÃ³w w klastrze
 Name:		mps
 Version:	1.1
 Release:	2
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Locations of processes in a cluster.
 
-%description -l pl
-Lokacja procesów w klastrze.
+%description -l pl.UTF-8
+Lokacja procesÃ³w w klastrze.
 
 %prep
 %setup -q
