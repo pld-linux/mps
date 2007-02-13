@@ -1,5 +1,5 @@
 Summary:	MPS - locations of processes in a cluster
-Summary(pl.UTF-8):   MPS - lokacja procesów w klastrze
+Summary(pl.UTF-8):	MPS - lokacja procesów w klastrze
 Name:		mps
 Version:	1.1
 Release:	2
