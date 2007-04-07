@@ -1,5 +1,5 @@
-Summary:	MPS - locations of processes in a cluster
-Summary(pl.UTF-8):	MPS - lokacja procesów w klastrze
+Summary:	MPS - locations of processes in MOSIX cluster
+Summary(pl.UTF-8):	MPS - lokacja procesów w klastrze MOSIX
 Name:		mps
 Version:	1.1
 Release:	2
@@ -9,14 +9,13 @@ Source0:	http://www.mosix.org/moskrn/%{name}-%{version}.tar.gz
 # Source0-md5:	139271704768f8a425d9371181249742
 URL:		http://www.mosix.org/
 BuildRequires:	ncurses-devel
-Requires:	kernel-mosix
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Locations of processes in a cluster.
+Locations of processes in MOSIX cluster.
 
 %description -l pl.UTF-8
-Lokacja procesów w klastrze.
+Lokacja procesów w klastrze MOSIX.
 
 %prep
 %setup -q
